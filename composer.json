@@ -1,0 +1,60 @@
+{
+  "name": "shopwell/shopwell-rector",
+  "description": "Shopwell specific Rector",
+  "type": "rector-extension",
+  "license": "Apache-2.0",
+  "require": {
+    "php": "^8.2",
+    "rector/rector": "^2.6.2",
+    "webmozart/assert": "^1 || ^2"
+  },
+  "require-dev": {
+    "boundwize/structarmed": "^0.17.2",
+    "friendsofphp/php-cs-fixer": "^3.95",
+    "phpstan/phpstan": "^2.0",
+    "phpunit/phpunit": "^11.5",
+    "symplify/easy-coding-standard": "~11.2"
+  },
+  "conflict": {
+    "rector/rector": "<2.6.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Frosh\\Rector\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "classmap": [
+      "stubs"
+    ],
+    "psr-4": {
+      "Frosh\\Rector\\Tests\\": "tests"
+    },
+    "exclude-from-classmap": [
+      "**.php.inc"
+    ]
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "update-with-dependencies": true,
+    "sort-packages": true,
+    "platform": {
+      "php": "8.2.99"
+    }
+  },
+  "extra": {
+    "rector": {
+      "includes": [
+        "config/config.php"
+      ]
+    }
+  },
+  "scripts": {
+    "phpunit": "phpunit",
+    "phpstan": "phpstan analyse --memory-limit=1G",
+    "csfix": "php-cs-fixer fix",
+    "docs": [
+      "vendor/bin/rule-doc-generator generate src --output-file docs/rector_rules_overview.md --ansi"
+    ]
+  }
+}

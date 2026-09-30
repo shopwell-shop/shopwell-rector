@@ -1,6 +1,6 @@
 {
-  "name": "frosh/shopware-rector",
-  "description": "Shopware specific Rector",
+  "name": "frosh/shopwell-rector",
+  "description": "Shopwell specific Rector",
   "type": "rector-extension",
   "license": "mit",
   "require": {

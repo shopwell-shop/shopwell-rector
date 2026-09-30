@@ -2,7 +2,7 @@
   "name": "shopwell/shopwell-rector",
   "description": "Shopwell specific Rector",
   "type": "rector-extension",
-  "license": "mit",
+  "license": "Apache-2.0",
   "require": {
     "php": "^8.2",
     "rector/rector": "^2.6.2",

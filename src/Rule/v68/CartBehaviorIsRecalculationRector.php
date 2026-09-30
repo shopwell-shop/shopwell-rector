@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Frosh\Rector\Rule\v68;
+namespace Shopwell\Rector\Rule\v68;
 
 use PhpParser\Node;
 use PhpParser\Node\Expr\MethodCall;

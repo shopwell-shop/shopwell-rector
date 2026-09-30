@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Frosh\Rector\Tests\Rector\v68\ProductStreamBuilderBuildFiltersToEnrichCriteriaRector;
+namespace Shopwell\Rector\Tests\Rector\v68\ProductStreamBuilderBuildFiltersToEnrichCriteriaRector;
 
 use PHPUnit\Framework\Attributes\CoversClass;
-use Frosh\Rector\Rule\v68\ProductStreamBuilderBuildFiltersToEnrichCriteriaRector;
-use Frosh\Rector\Tests\Rector\AbstractFroshRectorTestCase;
+use Shopwell\Rector\Rule\v68\ProductStreamBuilderBuildFiltersToEnrichCriteriaRector;
+use Shopwell\Rector\Tests\Rector\AbstractShopwellRectorTestCase;
 
 /**
  * @internal
  */
 #[CoversClass(ProductStreamBuilderBuildFiltersToEnrichCriteriaRector::class)]
-final class ProductStreamBuilderBuildFiltersToEnrichCriteriaRectorTest extends AbstractFroshRectorTestCase {}
+final class ProductStreamBuilderBuildFiltersToEnrichCriteriaRectorTest extends AbstractShopwellRectorTestCase {}

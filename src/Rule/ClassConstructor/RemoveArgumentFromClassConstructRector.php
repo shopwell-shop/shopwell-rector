@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Frosh\Rector\Rule\ClassConstructor;
+namespace Shopwell\Rector\Rule\ClassConstructor;
 
-use Frosh\Rector\Rule\ClassMethod\AddArgumentToClassWithoutDefault;
+use Shopwell\Rector\Rule\ClassMethod\AddArgumentToClassWithoutDefault;
 use PhpParser\Node;
 use PhpParser\Node\Expr\New_;
 use PhpParser\Node\Stmt\Class_;

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Frosh\Rector\Tests\Rector\v68\CartBehaviorIsRecalculationRector;
+namespace Shopwell\Rector\Tests\Rector\v68\CartBehaviorIsRecalculationRector;
 
 use PHPUnit\Framework\Attributes\CoversClass;
-use Frosh\Rector\Rule\v68\CartBehaviorIsRecalculationRector;
-use Frosh\Rector\Tests\Rector\AbstractFroshRectorTestCase;
+use Shopwell\Rector\Rule\v68\CartBehaviorIsRecalculationRector;
+use Shopwell\Rector\Tests\Rector\AbstractShopwellRectorTestCase;
 
 /**
  * @internal
  */
 #[CoversClass(CartBehaviorIsRecalculationRector::class)]
-final class CartBehaviorIsRecalculationRectorTest extends AbstractFroshRectorTestCase {}
+final class CartBehaviorIsRecalculationRectorTest extends AbstractShopwellRectorTestCase {}

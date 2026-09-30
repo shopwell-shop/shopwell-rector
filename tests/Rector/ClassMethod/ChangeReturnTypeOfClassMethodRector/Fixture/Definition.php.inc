@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Frosh\Rector\Tests\Rector\ClassMethod\ChangeReturnTypeOfClassMethodRector\Fixture;
+namespace Shopwell\Rector\Tests\Rector\ClassMethod\ChangeReturnTypeOfClassMethodRector\Fixture;
 
 use OpenSearchDSL\Query\Compound\BoolQuery;
 use Shopwell\Core\Framework\Context;
@@ -17,7 +17,7 @@ class ElasticsearchProductDefinition extends AbstractElasticsearchDefinition
 -----
 <?php declare(strict_types=1);
 
-namespace Frosh\Rector\Tests\Rector\ClassMethod\ChangeReturnTypeOfClassMethodRector\Fixture;
+namespace Shopwell\Rector\Tests\Rector\ClassMethod\ChangeReturnTypeOfClassMethodRector\Fixture;
 
 use OpenSearchDSL\BuilderInterface;
 use OpenSearchDSL\Query\Compound\BoolQuery;

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use Frosh\Rector\Rule\v68\CartBehaviorIsRecalculationRector;
+use Shopwell\Rector\Rule\v68\CartBehaviorIsRecalculationRector;
 use Rector\Config\RectorConfig;
 
 return static function (RectorConfig $rectorConfig): void {

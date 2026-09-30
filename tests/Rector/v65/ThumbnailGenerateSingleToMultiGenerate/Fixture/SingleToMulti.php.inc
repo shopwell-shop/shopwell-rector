@@ -1,5 +1,5 @@
 <?php
-namespace Frosh\Rector\Tests\Rector\v65\RedisConnectionFactoryCreateRector\Fixture;
+namespace Shopwell\Rector\Tests\Rector\v65\RedisConnectionFactoryCreateRector\Fixture;
 
 use Shopwell\Core\Content\Media\Thumbnail\ThumbnailService;
 
@@ -10,7 +10,7 @@ $thumbnail->generateThumbnails($media, $context);
 
 -----
 <?php
-namespace Frosh\Rector\Tests\Rector\v65\RedisConnectionFactoryCreateRector\Fixture;
+namespace Shopwell\Rector\Tests\Rector\v65\RedisConnectionFactoryCreateRector\Fixture;
 
 use Shopwell\Core\Content\Media\Thumbnail\ThumbnailService;
 

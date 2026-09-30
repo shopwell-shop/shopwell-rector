@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
-use Frosh\Rector\Rule\ClassMethod\AddArgumentToClassWithoutDefault;
-use Frosh\Rector\Rule\ClassMethod\AddArgumentToClassWithoutDefaultRector;
+use Shopwell\Rector\Rule\ClassMethod\AddArgumentToClassWithoutDefault;
+use Shopwell\Rector\Rule\ClassMethod\AddArgumentToClassWithoutDefaultRector;
 use PHPStan\Type\ArrayType;
 use PHPStan\Type\StringType;
 use Rector\Config\RectorConfig;

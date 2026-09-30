@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Frosh\Rector\Tests\Rector;
+namespace Shopwell\Rector\Tests\Rector;
 
 use PHPUnit\Framework\Attributes\DataProvider;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 
-abstract class AbstractFroshRectorTestCase extends AbstractRectorTestCase
+abstract class AbstractShopwellRectorTestCase extends AbstractRectorTestCase
 {
     #[DataProvider('provideData')]
     public function test(string $fileInfo): void

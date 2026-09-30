@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-use Frosh\Rector\Rule\ClassMethod\AddArgumentToClassWithoutDefault;
-use Frosh\Rector\Rule\ClassMethod\AddArgumentToClassWithoutDefaultRector;
-use Frosh\Rector\Rule\v65\AddBanAllToReverseProxyRector;
+use Shopwell\Rector\Rule\ClassMethod\AddArgumentToClassWithoutDefault;
+use Shopwell\Rector\Rule\ClassMethod\AddArgumentToClassWithoutDefaultRector;
+use Shopwell\Rector\Rule\v65\AddBanAllToReverseProxyRector;
 use PHPStan\Type\ArrayType;
 use PHPStan\Type\BooleanType;
 use PHPStan\Type\NullType;

@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Frosh\Rector\Tests\Rector\v65\MigrateLoginRequiredAnnotationToRouteRector;
+namespace Shopwell\Rector\Tests\Rector\v65\MigrateLoginRequiredAnnotationToRouteRector;
 
 use PHPUnit\Framework\Attributes\CoversNothing;
-use Frosh\Rector\Tests\Rector\AbstractFroshRectorTestCase;
+use Shopwell\Rector\Tests\Rector\AbstractShopwellRectorTestCase;
 
 /**
  * @internal
  */
 #[CoversNothing]
-final class MigrateLoginRequiredAnnotationToRouteRectorTest extends AbstractFroshRectorTestCase {}
+final class MigrateLoginRequiredAnnotationToRouteRectorTest extends AbstractShopwellRectorTestCase {}

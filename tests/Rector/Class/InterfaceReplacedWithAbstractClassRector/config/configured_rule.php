@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
-use Frosh\Rector\Rule\Class_\InterfaceReplacedWithAbstractClass;
-use Frosh\Rector\Rule\Class_\InterfaceReplacedWithAbstractClassRector;
+use Shopwell\Rector\Rule\Class_\InterfaceReplacedWithAbstractClass;
+use Shopwell\Rector\Rule\Class_\InterfaceReplacedWithAbstractClassRector;
 use Rector\Config\RectorConfig;
 
 return static function (RectorConfig $rectorConfig): void {

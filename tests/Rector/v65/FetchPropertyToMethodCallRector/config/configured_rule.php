@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
-use Frosh\Rector\Rule\Transform\Rector\Assign\PropertyFetchToMethodCallRector;
-use Frosh\Rector\Rule\Transform\ValueObject\PropertyFetchToMethodCall;
+use Shopwell\Rector\Rule\Transform\Rector\Assign\PropertyFetchToMethodCallRector;
+use Shopwell\Rector\Rule\Transform\ValueObject\PropertyFetchToMethodCall;
 use Rector\Config\RectorConfig;
 
 return static function (RectorConfig $rectorConfig): void {

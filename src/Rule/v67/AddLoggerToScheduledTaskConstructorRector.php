@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Frosh\Rector\Rule\v67;
+namespace Shopwell\Rector\Rule\v67;
 
 use PhpParser\Node;
 use PHPStan\Type\ObjectType;

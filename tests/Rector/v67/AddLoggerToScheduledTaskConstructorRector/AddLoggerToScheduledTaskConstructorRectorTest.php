@@ -1,13 +1,13 @@
 <?php declare(strict_types=1);
 
-namespace Frosh\Rector\Tests\Rector\v67\AddLoggerToScheduledTaskConstructorRector;
+namespace Shopwell\Rector\Tests\Rector\v67\AddLoggerToScheduledTaskConstructorRector;
 
 use PHPUnit\Framework\Attributes\CoversClass;
-use Frosh\Rector\Rule\v67\AddLoggerToScheduledTaskConstructorRector;
-use Frosh\Rector\Tests\Rector\AbstractFroshRectorTestCase;
+use Shopwell\Rector\Rule\v67\AddLoggerToScheduledTaskConstructorRector;
+use Shopwell\Rector\Tests\Rector\AbstractShopwellRectorTestCase;
 
 /**
  * @internal
  */
 #[CoversClass(AddLoggerToScheduledTaskConstructorRector::class)]
-final class AddLoggerToScheduledTaskConstructorRectorTest extends AbstractFroshRectorTestCase {}
+final class AddLoggerToScheduledTaskConstructorRectorTest extends AbstractShopwellRectorTestCase {}

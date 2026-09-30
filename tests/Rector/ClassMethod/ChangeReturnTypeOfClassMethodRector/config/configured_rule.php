@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
-use Frosh\Rector\Rule\ClassMethod\ChangeReturnTypeOfClassMethod;
-use Frosh\Rector\Rule\ClassMethod\ChangeReturnTypeOfClassMethodRector;
+use Shopwell\Rector\Rule\ClassMethod\ChangeReturnTypeOfClassMethod;
+use Shopwell\Rector\Rule\ClassMethod\ChangeReturnTypeOfClassMethodRector;
 use PhpParser\Node\Name\FullyQualified;
 use Rector\Config\RectorConfig;
 

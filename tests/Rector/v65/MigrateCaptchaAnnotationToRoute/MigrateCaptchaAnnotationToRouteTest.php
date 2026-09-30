@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Frosh\Rector\Tests\Rector\v65\MigrateCaptchaAnnotationToRoute;
+namespace Shopwell\Rector\Tests\Rector\v65\MigrateCaptchaAnnotationToRoute;
 
 use PHPUnit\Framework\Attributes\CoversNothing;
-use Frosh\Rector\Tests\Rector\AbstractFroshRectorTestCase;
+use Shopwell\Rector\Tests\Rector\AbstractShopwellRectorTestCase;
 
 /**
  * @internal
  */
 #[CoversNothing]
-final class MigrateCaptchaAnnotationToRouteTest extends AbstractFroshRectorTestCase {}
+final class MigrateCaptchaAnnotationToRouteTest extends AbstractShopwellRectorTestCase {}

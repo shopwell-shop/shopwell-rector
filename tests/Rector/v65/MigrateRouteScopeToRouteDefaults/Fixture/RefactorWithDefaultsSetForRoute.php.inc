@@ -1,5 +1,5 @@
 <?php
-namespace Frosh\Rector\Tests\Rector\v65\MigrateRouteScopeToRouteDefaults\Fixture;
+namespace Shopwell\Rector\Tests\Rector\v65\MigrateRouteScopeToRouteDefaults\Fixture;
 
 use Shopwell\Core\Framework\Routing\Annotation\RouteScope;
 
@@ -13,7 +13,7 @@ class Controller
 
 -----
 <?php
-namespace Frosh\Rector\Tests\Rector\v65\MigrateRouteScopeToRouteDefaults\Fixture;
+namespace Shopwell\Rector\Tests\Rector\v65\MigrateRouteScopeToRouteDefaults\Fixture;
 
 use Shopwell\Core\Framework\Routing\Annotation\RouteScope;
 

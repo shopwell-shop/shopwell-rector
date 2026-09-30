@@ -1,5 +1,5 @@
 <?php
-namespace Frosh\Rector\Tests\Rector\v67\AddEntityNameToEntityExtension\Fixture;
+namespace Shopwell\Rector\Tests\Rector\v67\AddEntityNameToEntityExtension\Fixture;
 
 use Shopwell\Core\Framework\DataAbstractionLayer\EntityExtension;
 
@@ -18,7 +18,7 @@ class ProductExtension extends EntityExtension
 ?>
 -----
 <?php
-namespace Frosh\Rector\Tests\Rector\v67\AddEntityNameToEntityExtension\Fixture;
+namespace Shopwell\Rector\Tests\Rector\v67\AddEntityNameToEntityExtension\Fixture;
 
 use Shopwell\Core\Framework\DataAbstractionLayer\EntityExtension;
 

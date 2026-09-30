@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Frosh\Rector\Rule\Class_;
+namespace Shopwell\Rector\Rule\Class_;
 
 use PHPStan\Type\ObjectType;
 

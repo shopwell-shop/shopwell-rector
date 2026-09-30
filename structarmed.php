@@ -13,7 +13,7 @@ return Architecture::define()
     ->layer('ClassConstructor', 'src/Rule/ClassConstructor/')
     ->layer('ClassMethod', 'src/Rule/ClassMethod/')
     ->layer('Transform', 'src/Rule/Transform/')
-    ->layerPattern('Version', '#^Frosh\\\Rector\\\Rule\\\v\d+\\\#')
+    ->layerPattern('Version', '#^Shopwell\\\Rector\\\Rule\\\v\d+\\\#')
     ->layer('Set', 'src/Set/')
     ->ruleset([
         'Class_' => [],

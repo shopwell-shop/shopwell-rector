@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Frosh\Rector\Rule\ClassMethod;
+namespace Shopwell\Rector\Rule\ClassMethod;
 
 use PHPStan\Type\ObjectType;
 use PHPStan\Type\Type;

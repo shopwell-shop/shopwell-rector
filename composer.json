@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Frosh\\Rector\\": "src"
+      "Shopwell\\Rector\\": "src"
     }
   },
   "autoload-dev": {
@@ -28,7 +28,7 @@
       "stubs"
     ],
     "psr-4": {
-      "Frosh\\Rector\\Tests\\": "tests"
+      "Shopwell\\Rector\\Tests\\": "tests"
     },
     "exclude-from-classmap": [
       "**.php.inc"

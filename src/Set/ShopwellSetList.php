@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Frosh\Rector\Set;
+namespace Shopwell\Rector\Set;
 
 final class ShopwellSetList
 {

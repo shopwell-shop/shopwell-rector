@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Frosh\Rector\Rule\ClassMethod;
+namespace Shopwell\Rector\Rule\ClassMethod;
 
 use PhpParser\Node;
 use PhpParser\Node\Expr\Variable;

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Frosh\Rector\Tests\Rector\v68\EntitySearchResultGetEntitiesRector;
+namespace Shopwell\Rector\Tests\Rector\v68\EntitySearchResultGetEntitiesRector;
 
 use PHPUnit\Framework\Attributes\CoversClass;
-use Frosh\Rector\Rule\v68\EntitySearchResultGetEntitiesRector;
-use Frosh\Rector\Tests\Rector\AbstractFroshRectorTestCase;
+use Shopwell\Rector\Rule\v68\EntitySearchResultGetEntitiesRector;
+use Shopwell\Rector\Tests\Rector\AbstractShopwellRectorTestCase;
 
 /**
  * @internal
  */
 #[CoversClass(EntitySearchResultGetEntitiesRector::class)]
-final class EntitySearchResultGetEntitiesRectorTest extends AbstractFroshRectorTestCase {}
+final class EntitySearchResultGetEntitiesRectorTest extends AbstractShopwellRectorTestCase {}

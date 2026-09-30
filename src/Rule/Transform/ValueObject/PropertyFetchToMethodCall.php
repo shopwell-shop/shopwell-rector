@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Frosh\Rector\Rule\Transform\ValueObject;
+namespace Shopwell\Rector\Rule\Transform\ValueObject;
 
 use PHPStan\Type\ObjectType;
 use Rector\Validation\RectorAssert;

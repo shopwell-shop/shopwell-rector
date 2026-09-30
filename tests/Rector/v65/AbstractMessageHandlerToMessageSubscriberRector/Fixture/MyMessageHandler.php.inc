@@ -1,6 +1,6 @@
 <?php
 
-namespace Frosh\Rector\Tests\Rector\v65\AbstractMessageHandlerToMessageSubscriberRector\Fixture;
+namespace Shopwell\Rector\Tests\Rector\v65\AbstractMessageHandlerToMessageSubscriberRector\Fixture;
 
 use Shopwell\Core\Framework\MessageQueue\Handler\AbstractMessageHandler;
 
@@ -22,7 +22,7 @@ class MyMessageHandler extends AbstractMessageHandler
 -----
 <?php
 
-namespace Frosh\Rector\Tests\Rector\v65\AbstractMessageHandlerToMessageSubscriberRector\Fixture;
+namespace Shopwell\Rector\Tests\Rector\v65\AbstractMessageHandlerToMessageSubscriberRector\Fixture;
 
 use Shopwell\Core\Framework\MessageQueue\Handler\AbstractMessageHandler;
 

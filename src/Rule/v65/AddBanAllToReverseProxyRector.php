@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Frosh\Rector\Rule\v65;
+namespace Shopwell\Rector\Rule\v65;
 
 use PhpParser\BuilderFactory;
 use PhpParser\Node;

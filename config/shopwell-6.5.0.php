@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
-use Frosh\Rector\Rule\v65\AbstractMessageHandlerToMessageSubscriberRector;
-use Frosh\Rector\Rule\v67\AddEntityNameToEntityExtension;
+use Shopwell\Rector\Rule\v65\AbstractMessageHandlerToMessageSubscriberRector;
+use Shopwell\Rector\Rule\v67\AddEntityNameToEntityExtension;
 use Rector\Config\RectorConfig;
 use Rector\Set\ValueObject\SetList;
 use Rector\Symfony\Set\SymfonySetList;

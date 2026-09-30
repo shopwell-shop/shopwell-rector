@@ -1,12 +1,12 @@
 <?php declare(strict_types=1);
 
-namespace Frosh\Rector\Tests\Rector\ClassMethod\ChangeReturnTypeOfClassMethodRector;
+namespace Shopwell\Rector\Tests\Rector\ClassMethod\ChangeReturnTypeOfClassMethodRector;
 
 use PHPUnit\Framework\Attributes\CoversNothing;
-use Frosh\Rector\Tests\Rector\AbstractFroshRectorTestCase;
+use Shopwell\Rector\Tests\Rector\AbstractShopwellRectorTestCase;
 
 /**
  * @internal
  */
 #[CoversNothing]
-final class ChangeReturnTypeOfClassMethodRectorTest extends AbstractFroshRectorTestCase {}
+final class ChangeReturnTypeOfClassMethodRectorTest extends AbstractShopwellRectorTestCase {}

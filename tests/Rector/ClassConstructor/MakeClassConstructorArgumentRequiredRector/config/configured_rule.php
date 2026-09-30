@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
-use Frosh\Rector\Rule\ClassConstructor\MakeClassConstructorArgumentRequired;
-use Frosh\Rector\Rule\ClassConstructor\MakeClassConstructorArgumentRequiredRector;
+use Shopwell\Rector\Rule\ClassConstructor\MakeClassConstructorArgumentRequired;
+use Shopwell\Rector\Rule\ClassConstructor\MakeClassConstructorArgumentRequiredRector;
 use PHPStan\Type\NullType;
 use Rector\Config\RectorConfig;
 

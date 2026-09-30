@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
-use Frosh\Rector\Rule\ClassConstructor\RemoveArgumentFromClassConstruct;
-use Frosh\Rector\Rule\ClassConstructor\RemoveArgumentFromClassConstructRector;
+use Shopwell\Rector\Rule\ClassConstructor\RemoveArgumentFromClassConstruct;
+use Shopwell\Rector\Rule\ClassConstructor\RemoveArgumentFromClassConstructRector;
 use Rector\Config\RectorConfig;
 
 return static function (RectorConfig $rectorConfig): void {

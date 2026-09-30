@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Frosh\Rector\Tests\Rector\v65\FakerPropertyToMethodCallRector;
+namespace Shopwell\Rector\Tests\Rector\v65\FakerPropertyToMethodCallRector;
 
 use PHPUnit\Framework\Attributes\CoversNothing;
-use Frosh\Rector\Tests\Rector\AbstractFroshRectorTestCase;
+use Shopwell\Rector\Tests\Rector\AbstractShopwellRectorTestCase;
 
 /**
  * @internal
  */
 #[CoversNothing]
-final class FakerPropertyToMethodCallRectorTest extends AbstractFroshRectorTestCase {}
+final class FakerPropertyToMethodCallRectorTest extends AbstractShopwellRectorTestCase {}

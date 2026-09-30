@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Frosh\Rector\Rule\Transform\Rector\Assign;
+namespace Shopwell\Rector\Rule\Transform\Rector\Assign;
 
-use Frosh\Rector\Rule\Transform\ValueObject\PropertyFetchToMethodCall;
+use Shopwell\Rector\Rule\Transform\ValueObject\PropertyFetchToMethodCall;
 use PhpParser\Node;
 use PhpParser\Node\Expr\Assign;
 use PhpParser\Node\Expr\PropertyFetch;

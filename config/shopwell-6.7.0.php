@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-use Frosh\Rector\Rule\ClassMethod\ChangeReturnTypeOfClassMethod;
-use Frosh\Rector\Rule\ClassMethod\ChangeReturnTypeOfClassMethodRector;
-use Frosh\Rector\Rule\v67\AddEntityNameToEntityExtension;
-use Frosh\Rector\Rule\v67\AddLoggerToScheduledTaskConstructorRector;
+use Shopwell\Rector\Rule\ClassMethod\ChangeReturnTypeOfClassMethod;
+use Shopwell\Rector\Rule\ClassMethod\ChangeReturnTypeOfClassMethodRector;
+use Shopwell\Rector\Rule\v67\AddEntityNameToEntityExtension;
+use Shopwell\Rector\Rule\v67\AddLoggerToScheduledTaskConstructorRector;
 use PhpParser\Node\Name\FullyQualified;
 use Rector\Config\RectorConfig;
 use Rector\Symfony\Set\SymfonySetList;

@@ -1,5 +1,5 @@
 <?php
-namespace Frosh\Rector\Tests\Rector\v65\MigrateLoginRequiredAnnotationToRouteRector\Fixture;
+namespace Shopwell\Rector\Tests\Rector\v65\MigrateLoginRequiredAnnotationToRouteRector\Fixture;
 
 use Shopwell\Core\Framework\Routing\Annotation\LoginRequired;
 use Symfony\Component\Routing\Annotation\Route;
@@ -18,7 +18,7 @@ class RefactorWithDefaultsSetForRoute
 
 -----
 <?php
-namespace Frosh\Rector\Tests\Rector\v65\MigrateLoginRequiredAnnotationToRouteRector\Fixture;
+namespace Shopwell\Rector\Tests\Rector\v65\MigrateLoginRequiredAnnotationToRouteRector\Fixture;
 
 use Shopwell\Core\Framework\Routing\Annotation\LoginRequired;
 use Symfony\Component\Routing\Annotation\Route;

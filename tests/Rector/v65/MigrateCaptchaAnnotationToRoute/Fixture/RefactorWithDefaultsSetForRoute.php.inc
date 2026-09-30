@@ -1,5 +1,5 @@
 <?php
-namespace Frosh\Rector\Tests\Rector\v65\MigrateCaptchaAnnotationToRoute\Fixture;
+namespace Shopwell\Rector\Tests\Rector\v65\MigrateCaptchaAnnotationToRoute\Fixture;
 
 use Shopwell\Storefront\Framework\Captcha\Annotation\Captcha;
 use Symfony\Component\Routing\Annotation\Route;
@@ -18,7 +18,7 @@ class RefactorWithDefaultsSetForRoute
 
 -----
 <?php
-namespace Frosh\Rector\Tests\Rector\v65\MigrateCaptchaAnnotationToRoute\Fixture;
+namespace Shopwell\Rector\Tests\Rector\v65\MigrateCaptchaAnnotationToRoute\Fixture;
 
 use Shopwell\Storefront\Framework\Captcha\Annotation\Captcha;
 use Symfony\Component\Routing\Annotation\Route;

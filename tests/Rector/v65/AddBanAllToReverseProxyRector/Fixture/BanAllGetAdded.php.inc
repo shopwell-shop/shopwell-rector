@@ -1,5 +1,5 @@
 <?php
-namespace Frosh\Rector\Tests\Rector\v65\AddBanAllToReverseProxyRector\Fixture;
+namespace Shopwell\Rector\Tests\Rector\v65\AddBanAllToReverseProxyRector\Fixture;
 
 class Test extends \Shopwell\Storefront\Framework\Cache\ReverseProxy\AbstractReverseProxyGateway {
 
@@ -8,7 +8,7 @@ class Test extends \Shopwell\Storefront\Framework\Cache\ReverseProxy\AbstractRev
 
 -----
 <?php
-namespace Frosh\Rector\Tests\Rector\v65\AddBanAllToReverseProxyRector\Fixture;
+namespace Shopwell\Rector\Tests\Rector\v65\AddBanAllToReverseProxyRector\Fixture;
 
 class Test extends \Shopwell\Storefront\Framework\Cache\ReverseProxy\AbstractReverseProxyGateway
 {

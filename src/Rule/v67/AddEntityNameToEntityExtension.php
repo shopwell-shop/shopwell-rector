@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Frosh\Rector\Rule\v67;
+namespace Shopwell\Rector\Rule\v67;
 
 use PhpParser\Modifiers;
 use PhpParser\Node;

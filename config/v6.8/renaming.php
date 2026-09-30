@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-use Frosh\Rector\Rule\Class_\InterfaceReplacedWithAbstractClass;
-use Frosh\Rector\Rule\Class_\InterfaceReplacedWithAbstractClassRector;
-use Frosh\Rector\Rule\v68\CartBehaviorIsRecalculationRector;
-use Frosh\Rector\Rule\v68\EntitySearchResultGetEntitiesRector;
-use Frosh\Rector\Rule\v68\ProductStreamBuilderBuildFiltersToEnrichCriteriaRector;
+use Shopwell\Rector\Rule\Class_\InterfaceReplacedWithAbstractClass;
+use Shopwell\Rector\Rule\Class_\InterfaceReplacedWithAbstractClassRector;
+use Shopwell\Rector\Rule\v68\CartBehaviorIsRecalculationRector;
+use Shopwell\Rector\Rule\v68\EntitySearchResultGetEntitiesRector;
+use Shopwell\Rector\Rule\v68\ProductStreamBuilderBuildFiltersToEnrichCriteriaRector;
 use Rector\Config\RectorConfig;
 use Rector\Renaming\Rector\ClassConstFetch\RenameClassConstFetchRector;
 use Rector\Renaming\Rector\Name\RenameClassRector;

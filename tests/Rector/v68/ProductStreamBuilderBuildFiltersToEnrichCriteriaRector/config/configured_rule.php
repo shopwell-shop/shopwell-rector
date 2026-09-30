@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use Frosh\Rector\Rule\v68\ProductStreamBuilderBuildFiltersToEnrichCriteriaRector;
+use Shopwell\Rector\Rule\v68\ProductStreamBuilderBuildFiltersToEnrichCriteriaRector;
 use Rector\Config\RectorConfig;
 
 return static function (RectorConfig $rectorConfig): void {

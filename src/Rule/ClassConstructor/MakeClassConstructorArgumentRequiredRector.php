@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Frosh\Rector\Rule\ClassConstructor;
+namespace Shopwell\Rector\Rule\ClassConstructor;
 
 use PhpParser\Node;
 use PhpParser\Node\Arg;

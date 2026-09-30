@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use Frosh\Rector\Set\ShopwellSetList;
+use Shopwell\Rector\Set\ShopwellSetList;
 use Rector\Config\RectorConfig;
 
 return static function (RectorConfig $rectorConfig): void {

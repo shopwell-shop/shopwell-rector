@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
 
-use Frosh\Rector\Rule\v65\AbstractMessageHandlerToMessageSubscriberRector;
-use Frosh\Rector\Tests\Rector\v65\AbstractMessageHandlerToMessageSubscriberRector\Source\AbstractMessageHandler;
+use Shopwell\Rector\Rule\v65\AbstractMessageHandlerToMessageSubscriberRector;
+use Shopwell\Rector\Tests\Rector\v65\AbstractMessageHandlerToMessageSubscriberRector\Source\AbstractMessageHandler;
 use Rector\Config\RectorConfig;
 
 return static function (RectorConfig $rectorConfig): void {

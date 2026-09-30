@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Frosh\Rector\Tests\Rector\ClassConstructor\MakeClassConstructorArgumentRequiredRector;
+namespace Shopwell\Rector\Tests\Rector\ClassConstructor\MakeClassConstructorArgumentRequiredRector;
 
 use PHPUnit\Framework\Attributes\CoversNothing;
-use Frosh\Rector\Tests\Rector\AbstractFroshRectorTestCase;
+use Shopwell\Rector\Tests\Rector\AbstractShopwellRectorTestCase;
 
 /**
  * @internal
  */
 #[CoversNothing]
-final class RemoveArgumentFromClassConstructorRectorTest extends AbstractFroshRectorTestCase {}
+final class RemoveArgumentFromClassConstructorRectorTest extends AbstractShopwellRectorTestCase {}

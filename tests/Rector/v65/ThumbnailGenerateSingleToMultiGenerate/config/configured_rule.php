@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use Frosh\Rector\Rule\v65\ThumbnailGenerateSingleToMultiGenerateRector;
+use Shopwell\Rector\Rule\v65\ThumbnailGenerateSingleToMultiGenerateRector;
 use Rector\Config\RectorConfig;
 
 return static function (RectorConfig $rectorConfig): void {

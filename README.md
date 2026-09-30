@@ -7,19 +7,19 @@ See available [Shopwell rules](/docs/rector_rules_overview.md)
 
 ## Install
 
-Make sure to install both `frosh/shopwell-rector` as well as `rector/rector`.
+Make sure to install both `shopwell/shopwell-rector` as well as `rector/rector`.
 
 ```bash
-composer req frosh/shopwell-rector --dev
+composer req shopwell/shopwell-rector --dev
 ```
 
 ## Use Sets
 
-To add a set to your config, use `Frosh\Rector\Set\ShopwellSetList` class and pick one of constants:
+To add a set to your config, use `Shopwell\Rector\Set\ShopwellSetList` class and pick one of constants:
 
 ```php
 use Rector\Config\RectorConfig;
-use Frosh\Rector\Set\ShopwellSetList;
+use Shopwell\Rector\Set\ShopwellSetList;
 
 return RectorConfig::configure()
     ->withSets([

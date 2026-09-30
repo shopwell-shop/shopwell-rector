@@ -6,15 +6,15 @@ This Rector adds new default arguments in calls of defined methods and class typ
 
 :wrench: **configure it!**
 
-- class: [`Frosh\Rector\Rule\ClassMethod\AddArgumentToClassWithoutDefaultRector`](../src/Rule/ClassMethod/AddArgumentToClassWithoutDefaultRector.php)
+- class: [`Shopwell\Rector\Rule\ClassMethod\AddArgumentToClassWithoutDefaultRector`](../src/Rule/ClassMethod/AddArgumentToClassWithoutDefaultRector.php)
 
 ```php
 <?php
 
 declare(strict_types=1);
 
-use Frosh\Rector\Rule\ClassMethod\AddArgumentToClassWithoutDefault;
-use Frosh\Rector\Rule\ClassMethod\AddArgumentToClassWithoutDefaultRector;
+use Shopwell\Rector\Rule\ClassMethod\AddArgumentToClassWithoutDefault;
+use Shopwell\Rector\Rule\ClassMethod\AddArgumentToClassWithoutDefaultRector;
 use PHPStan\Type\ObjectType;
 use Rector\Config\RectorConfig;
 
@@ -47,7 +47,7 @@ return static function (RectorConfig $rectorConfig): void {
 
 Adds banAll method to reverse proxy
 
-- class: [`Frosh\Rector\Rule\v65\AddBanAllToReverseProxyRector`](../src/Rule/v65/AddBanAllToReverseProxyRector.php)
+- class: [`Shopwell\Rector\Rule\v65\AddBanAllToReverseProxyRector`](../src/Rule/v65/AddBanAllToReverseProxyRector.php)
 
 ```diff
  class Test extends \Shopwell\Core\Framework\Cache\ReverseProxy\AbstractReverseProxyGateway {
@@ -64,7 +64,7 @@ Adds banAll method to reverse proxy
 
 Migrate extension metadata to state rector
 
-- class: [`Frosh\Rector\Rule\v65\ContextMetadataExtensionToStateRector`](../src/Rule/v65/ContextMetadataExtensionToStateRector.php)
+- class: [`Shopwell\Rector\Rule\v65\ContextMetadataExtensionToStateRector`](../src/Rule/v65/ContextMetadataExtensionToStateRector.php)
 
 ```diff
 -$context->addExtension(EntityIndexerRegistry::USE_INDEXING_QUEUE, new ArrayEntity());
@@ -77,7 +77,7 @@ Migrate extension metadata to state rector
 
 Move faker property to method call
 
-- class: [`Frosh\Rector\Rule\v65\FakerPropertyToMethodCallRector`](../src/Rule/v65/FakerPropertyToMethodCallRector.php)
+- class: [`Shopwell\Rector\Rule\v65\FakerPropertyToMethodCallRector`](../src/Rule/v65/FakerPropertyToMethodCallRector.php)
 
 ```diff
 -$this->faker->randomDigit
@@ -92,15 +92,15 @@ Replace UrlProviderInterface with AbstractClass
 
 :wrench: **configure it!**
 
-- class: [`Frosh\Rector\Rule\Class_\InterfaceReplacedWithAbstractClassRector`](../src/Rule/Class_/InterfaceReplacedWithAbstractClassRector.php)
+- class: [`Shopwell\Rector\Rule\Class_\InterfaceReplacedWithAbstractClassRector`](../src/Rule/Class_/InterfaceReplacedWithAbstractClassRector.php)
 
 ```php
 <?php
 
 declare(strict_types=1);
 
-use Frosh\Rector\Rule\Class_\InterfaceReplacedWithAbstractClass;
-use Frosh\Rector\Rule\Class_\InterfaceReplacedWithAbstractClassRector;
+use Shopwell\Rector\Rule\Class_\InterfaceReplacedWithAbstractClass;
+use Shopwell\Rector\Rule\Class_\InterfaceReplacedWithAbstractClassRector;
 use Rector\Config\RectorConfig;
 
 return static function (RectorConfig $rectorConfig): void {
@@ -127,15 +127,15 @@ NAME
 
 :wrench: **configure it!**
 
-- class: [`Frosh\Rector\Rule\ClassConstructor\MakeClassConstructorArgumentRequiredRector`](../src/Rule/ClassConstructor/MakeClassConstructorArgumentRequiredRector.php)
+- class: [`Shopwell\Rector\Rule\ClassConstructor\MakeClassConstructorArgumentRequiredRector`](../src/Rule/ClassConstructor/MakeClassConstructorArgumentRequiredRector.php)
 
 ```php
 <?php
 
 declare(strict_types=1);
 
-use Frosh\Rector\Rule\ClassConstructor\MakeClassConstructorArgumentRequired;
-use Frosh\Rector\Rule\ClassConstructor\MakeClassConstructorArgumentRequiredRector;
+use Shopwell\Rector\Rule\ClassConstructor\MakeClassConstructorArgumentRequired;
+use Shopwell\Rector\Rule\ClassConstructor\MakeClassConstructorArgumentRequiredRector;
 use PHPStan\Type\ArrayType;
 use PHPStan\Type\StringType;
 use Rector\Config\RectorConfig;
@@ -164,7 +164,7 @@ return static function (RectorConfig $rectorConfig): void {
 
 NAME
 
-- class: [`Frosh\Rector\Rule\v65\MigrateCaptchaAnnotationToRouteRector`](../src/Rule/v65/MigrateCaptchaAnnotationToRouteRector.php)
+- class: [`Shopwell\Rector\Rule\v65\MigrateCaptchaAnnotationToRouteRector`](../src/Rule/v65/MigrateCaptchaAnnotationToRouteRector.php)
 
 ```diff
  class Foo
@@ -187,7 +187,7 @@ NAME
 
 Migrates Annotations to Route annotation
 
-- class: [`Frosh\Rector\Rule\v65\MigrateLoginRequiredAnnotationToRouteRector`](../src/Rule/v65/MigrateLoginRequiredAnnotationToRouteRector.php)
+- class: [`Shopwell\Rector\Rule\v65\MigrateLoginRequiredAnnotationToRouteRector`](../src/Rule/v65/MigrateLoginRequiredAnnotationToRouteRector.php)
 
 ```diff
 -@LoginRequired
@@ -202,7 +202,7 @@ Migrates Annotations to Route annotation
 
 NAME
 
-- class: [`Frosh\Rector\Rule\v65\MigrateRouteScopeToRouteDefaults`](../src/Rule/v65/MigrateRouteScopeToRouteDefaults.php)
+- class: [`Shopwell\Rector\Rule\v65\MigrateRouteScopeToRouteDefaults`](../src/Rule/v65/MigrateRouteScopeToRouteDefaults.php)
 
 ```diff
  /**
@@ -222,15 +222,15 @@ This Rector removes an argument in the defined class construct.
 
 :wrench: **configure it!**
 
-- class: [`Frosh\Rector\Rule\ClassConstructor\RemoveArgumentFromClassConstructRector`](../src/Rule/ClassConstructor/RemoveArgumentFromClassConstructRector.php)
+- class: [`Shopwell\Rector\Rule\ClassConstructor\RemoveArgumentFromClassConstructRector`](../src/Rule/ClassConstructor/RemoveArgumentFromClassConstructRector.php)
 
 ```php
 <?php
 
 declare(strict_types=1);
 
-use Frosh\Rector\Rule\ClassConstructor\RemoveArgumentFromClassConstruct;
-use Frosh\Rector\Rule\ClassConstructor\RemoveArgumentFromClassConstructRector;
+use Shopwell\Rector\Rule\ClassConstructor\RemoveArgumentFromClassConstruct;
+use Shopwell\Rector\Rule\ClassConstructor\RemoveArgumentFromClassConstructRector;
 use Rector\Config\RectorConfig;
 
 return static function (RectorConfig $rectorConfig): void {
@@ -253,7 +253,7 @@ return static function (RectorConfig $rectorConfig): void {
 
 Move single thumbnail generation call to batch
 
-- class: [`Frosh\Rector\Rule\v65\ThumbnailGenerateSingleToMultiGenerateRector`](../src/Rule/v65/ThumbnailGenerateSingleToMultiGenerateRector.php)
+- class: [`Shopwell\Rector\Rule\v65\ThumbnailGenerateSingleToMultiGenerateRector`](../src/Rule/v65/ThumbnailGenerateSingleToMultiGenerateRector.php)
 
 ```diff
 -$thumbnail->generateThumbnails($media, $context);

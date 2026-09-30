@@ -1,5 +1,5 @@
 {
-  "name": "frosh/shopwell-rector",
+  "name": "shopwell/shopwell-rector",
   "description": "Shopwell specific Rector",
   "type": "rector-extension",
   "license": "mit",

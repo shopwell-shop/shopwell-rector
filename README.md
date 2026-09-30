@@ -35,8 +35,8 @@ return RectorConfig::configure()
 composer install
 
 # Dry Run
-./vendor/bin/rector process --config config/shopwell-6.7.0.php --autoload-file [SHOPWARE]/vendor/autoload.php [SHOPWARE]/custom/plugins/MyPlugin --dry-run
+./vendor/bin/rector process --config config/shopwell-6.7.0.php --autoload-file [SHOPWELL]/vendor/autoload.php [SHOPWELL]/custom/plugins/MyPlugin --dry-run
 
 # Normal Run
-./vendor/bin/rector process --config config/shopwell-6.7.0.php --autoload-file [SHOPWARE]/vendor/autoload.php [SHOPWARE]/custom/plugins/MyPlugin
+./vendor/bin/rector process --config config/shopwell-6.7.0.php --autoload-file [SHOPWELL]/vendor/autoload.php [SHOPWELL]/custom/plugins/MyPlugin
 ```
